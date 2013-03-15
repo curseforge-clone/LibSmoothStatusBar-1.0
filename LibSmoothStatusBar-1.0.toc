@@ -2,5 +2,4 @@
 ## Title: Lib: SmoothStatusBar-1.0
 ## Notes: Smoothly animates status bar
 
-LibStub\LibStub.lua
-LibSmoothStatusBar-1.0.lua
+LibSmoothStatusBar-1.0.xml
