@@ -24,6 +24,23 @@
 -- Port of oUF Smooth Update by Xuerian
 -- http://www.wowinterface.com/downloads/info11503-oUFSmoothUpdate.html
 
+--[[
+Functions:
+
+- SmoothBar(bar)
+    Enables smooth animation for the bar.
+	The bar:SetValue() method will be overloaded to handle animation.
+
+  Parameters:
+    bar - StatusBar frame - The StatusBar to be animated
+
+- ResetBar(bar)
+    Restores the bar to its original state. Disable animation.
+
+  Parameters:
+    bar - StatusBar frame - The StatusBar to be restored
+]]
+
 local MAJOR = "LibSmoothStatusBar-1.0"
 local MINOR = 1
 
