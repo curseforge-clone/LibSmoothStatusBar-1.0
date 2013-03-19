@@ -35,7 +35,7 @@ Functions:
     bar - StatusBar frame - The StatusBar to be animated
 
 - ResetBar(bar)
-    Restores the bar to its original state. Disable animation.
+    Restores the bar to its original state. Disabling animation.
 
   Parameters:
     bar - StatusBar frame - The StatusBar to be restored
